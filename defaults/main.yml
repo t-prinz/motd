@@ -1,4 +1,5 @@
 ---
 # defaults file for motd
-motd_array: 
-  - 'Default MOTD message specified in the role definition. Override this variable to customize.'
+custom_motd: "Default MOTD message specified in the role definition. Override this variable to customize."
+#motd_array: 
+#  - 'Default MOTD message specified in the role definition. Override this variable to customize.'

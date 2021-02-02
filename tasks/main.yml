@@ -1,5 +1,7 @@
 ---
 # tasks file for motd
+- set_fact:
+    motd_array: "{{ custom_motd.split('\n') }}"
 - template:
     src: motd.j2
     dest: /etc/motd
