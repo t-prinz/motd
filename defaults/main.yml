@@ -1,4 +1,4 @@
 ---
 # defaults file for motd
 motd_array: 
-  - 'Default MOTD message. Override this variable in Satellite to customize.'
+  - 'Default MOTD message specified in the role definition. Override this variable to customize.'
